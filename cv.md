@@ -16,7 +16,7 @@ You can reach me at [Telegram][tg] | [WhatsApp][wa] | [e-mail][email] | [LinkedI
 
 ### About myself
 
-I've been a quality assurance engineer since December '21 and I love my job!
+I've been a quality assurance engineer for a half of the year and I love my job!
 My main goal is to help customers and developers find ways to improve products.
 My priority is to investigate the product and find all kinds of defects.
 I am a very caring team worker, keeping an eye on the product. And I am a fast learner.
@@ -50,7 +50,7 @@ And exploring those: GitBash (Terminal), Charles, JMeter, Fiddler, Android Studi
 
 ### Code Examples
 
-**Get real-time exchange rates** task for Postman's sandbox from Vadim Ksendzov's QA course:
+**Get real-time exchange rates** task for Postman's sandbox from _Vadim Ksendzov's QA course_:
 Get real-time exchange rates for all currencies from bank API, using one endpoint as an array with a list of currencies, and the second as a personal one for each currency rate.
 
 ```js
@@ -87,3 +87,9 @@ for (let count = 0; count < currencyIds.length; count++) {
     });
 };
 ```
+
+### Experience
+
+#### Purrweb
+
+- **QA Engeneer** | Since Dec '21
