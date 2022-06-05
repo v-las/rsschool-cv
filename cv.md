@@ -1,6 +1,6 @@
 # Vlas Mastykash
 
-#### QA Engeneer
+#### QA Engineer
 
 ---
 
@@ -75,7 +75,7 @@ for (let count = 0; count < currencyIds.length; count++) {
                 {key: "auth_token", value: pm.environment.get("token")},
                 {key: "curr_code", value: currencyIds[count]}
             ]
-        },
+        }
     };
 
     pm.sendRequest(currencyRequest, (error, response) => {
@@ -93,14 +93,14 @@ for (let count = 0; count < currencyIds.length; count++) {
 
 ### Purrweb
 
-- **QA Engeneer** - Since Dec '21
+- **QA Engineer** - Since Dec '21
 
 ## Education
 
-1. QA Engineer Practice by **Vadim Ksendzov** - [ksendzov.com](https://ksendzov.com/)
+1. QA Engineer Practical Course by **Vadim Ksendzov** - [ksendzov.com](https://ksendzov.com/)
 1. QA Engineer Video-course by **Artsiom Rusau** - [youtube.com](https://www.youtube.com/playlist?list=PLKbJd47Kcbju2Vhi-FL7AI14vItVmGYk-)
 
 ## Languages
 
 - **Russian** - Native
-- **English** - B1 - Intermediate ([EF SET Certificate](https://www.efset.org/cert/uFXUtr))
+- **English** - B1 / Intermediate ([EF SET Certificate](https://www.efset.org/cert/uFXUtr))
