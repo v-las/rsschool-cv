@@ -6,7 +6,7 @@
 
 ## Contact Information
 
-You can reach me at **[Telegram][tg]** | [GitHub][gh] | [WhatsApp][wa] | [e-mail][email] | [LinkedIn][in] | [Twitter][tw]
+You can reach me at | **[Telegram][tg]** | [GitHub][gh] | [WhatsApp][wa] | [e-mail][email] | [LinkedIn][in] | [Twitter][tw]
 
 [email]: <mailto:mastykash.vlas@gmail.com>
 [in]: <https://www.linkedin.com/in/v-las/>
@@ -93,14 +93,14 @@ for (let count = 0; count < currencyIds.length; count++) {
 
 ### Purrweb
 
-- **QA Engeneer** | Since Dec '21
+- **QA Engeneer** - Since Dec '21
 
 ## Education
 
-1. QA Engineer Practice by **Vadim Ksendzov** | [ksendzov.com](https://ksendzov.com/)
-1. QA Engineer Video-course by **Artsiom Rusau** | [youtube.com](https://www.youtube.com/playlist?list=PLKbJd47Kcbju2Vhi-FL7AI14vItVmGYk-)
+1. QA Engineer Practice by **Vadim Ksendzov** - [ksendzov.com](https://ksendzov.com/)
+1. QA Engineer Video-course by **Artsiom Rusau** - [youtube.com](https://www.youtube.com/playlist?list=PLKbJd47Kcbju2Vhi-FL7AI14vItVmGYk-)
 
 ## Languages
 
-- **Russian** | Native
-- **English** | B1 - Intermediate ([EF SET Certificate](https://www.efset.org/cert/uFXUtr))
+- **Russian** - Native
+- **English** - B1 - Intermediate ([EF SET Certificate](https://www.efset.org/cert/uFXUtr))
