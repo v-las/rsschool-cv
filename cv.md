@@ -47,3 +47,43 @@ And exploring those: GitBash (Terminal), Charles, JMeter, Fiddler, Android Studi
 	<img alt="pycharm" width="102px" src="https://user-images.githubusercontent.com/89486551/143319814-3645ca4a-c3cc-4958-aa5b-ff27b47d704c.png" />
 	<img alt="WebStorm" width="102px" src="https://user-images.githubusercontent.com/89486551/145703556-7853a2fb-9487-49c4-9ff9-868c0fb82a98.png" />
 </div>
+
+### Code Examples
+
+**Get real-time exchange rates** task for Postman's sandbox from Vadim Ksendzov's QA course:
+Get real-time exchange rates for all currencies from bank API, using one endpoint as an array with a list of currencies, and the second as a personal one for each currency rate.
+
+```js
+let jsonData = pm.response.json();
+let currencyIds = [];
+
+for (let count = 0; count < jsonData.length; count++) {
+    currencyIds.push(jsonData[count].Cur_ID)
+};
+
+for (let count = 0; count < currencyIds.length; count++) {
+    let currencyRequest = {
+        url: pm.environment.get("baseUrl") + '/curr_byn',
+        method: 'POST',
+        header: {
+            'Content-Type': 'multipart/form-data',
+        },
+        body: {
+            mode: 'formdata',
+            formdata: [
+                {key: "auth_token", value: pm.environment.get("token")},
+                {key: "curr_code", value: currencyIds[count]}
+            ]
+        },
+    };
+
+    pm.sendRequest(currencyRequest, (error, response) => {
+        if (response.code != 200) {
+            console.log('error');
+        } else {
+            let jsonData = response.json();
+            console.log(jsonData.Cur_Name + " current rate is " + jsonData.Cur_OfficialRate);
+        };
+    });
+};
+```
