@@ -93,3 +93,8 @@ for (let count = 0; count < currencyIds.length; count++) {
 #### Purrweb
 
 - **QA Engeneer** | Since Dec '21
+
+### Education
+
+- **Vadim Ksendzov's QA Engineer Course** | [ksendzov.com](https://ksendzov.com/)
+- **Artsiom Rusau's QA Engineer Course** | [youtube.com](https://www.youtube.com/playlist?list=PLKbJd47Kcbju2Vhi-FL7AI14vItVmGYk-)
