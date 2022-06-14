@@ -100,23 +100,23 @@ body {
 }
 
 .footer {
+  display: flex;
   background-color: #eab676;
   padding: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-link {
   color: #eab676;
   font-size: 24px;
-  margin: 0 550px;
 }
 
 .footer-link:hover {
   color: #21130d;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
+.footer-date {
+  color: #4d2323;
+  margin: 0 100px;
 }
