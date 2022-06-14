@@ -21,12 +21,11 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: #873e23;
+  color: #eab676;
 }
 
 .container {
   min-width: 1440px;
-  margin: 0 auto;
   min-height: 50px;
 }
 
@@ -53,12 +52,10 @@ body {
   color: #eeeee4;
 }
 
-.main {
-}
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -69,6 +66,7 @@ body {
 
 .section {
   width: 50%;
+  margin: 20px 40px;
 }
 
 .section-item a {
@@ -109,7 +107,7 @@ body {
 .footer-link {
   color: #eab676;
   font-size: 24px;
-  margin-left: 500px;
+  margin: 0 550px;
 }
 
 .footer-link:hover {
@@ -121,5 +119,4 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  color: #fff;
 }
