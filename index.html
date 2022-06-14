@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main main-container">
+      <div class="conteiner">
+        <section class="section" id="fullname">
+          <img
+            src="./assets/my-photo.jpeg"
+            alt="handsome man holding a cup and pay attention to a speaker"
+            width="300"
+          />
+          <h1 class="section-title">Vlas Mastykash</h1>
+          <p>QA Engineer</p>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contact Information</h2>
+          <ul>
+            <li class="contacts-list">
+              <a
+                class="link"
+                href="https://t.me/v_las"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Telegram</a
+              >
+            </li>
+            <li class="contacts-list">
+              <a
+                class="link"
+                href="https://github.com/v-las"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+            </li>
+            <li class="contacts-list">
+              <a
+                class="link"
+                href="https://wa.me/79136198392"
+                target="_blank"
+                rel="noopener noreferrer"
+                >WhatsApp</a
+              >
+            </li>
+            <li class="contacts-list">
+              <a
+                class="link"
+                href="mailto:mastykash.vlas@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >e-mail</a
+              >
+            </li>
+            <li class="contacts-list">
+              <a
+                class="link"
+                href="https://www.linkedin.com/in/v-las/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+            <li class="contacts-list">
+              <a
+                class="link"
+                href="https://twitter.com/v_las_"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">About myself</h2>
+          <p class="p">
+            I've been a quality assurance engineer for a half of the year and I
+            love my job! My main goal is to help customers and developers find
+            ways to improve products. My priority is to investigate the product
+            and find all kinds of defects. I am a very caring team worker,
+            keeping an eye on the product. And I am a fast learner.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills and Proficiency</h2>
+          <p class="p">
+            I'm using those tools at work: DevTools, Figma, Jira, DBeaver,
+            Swagger, Postman.
+            <br />
+            And exploring those: GitBash (Terminal), Charles, JMeter, Fiddler,
+            Android Studio, PyCharm, WebStorm.
+          </p>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code Examples</h2>
+          <p class="p">
+            Get real-time exchange rates task for Postman's sandbox from Vadim
+            Ksendzov's QA course:
+          </p>
+          <pre><code>
+    pm.sendRequest(currencyRequest, (error, response) => {
+      if (response.code != 200) {
+        console.log('error');
+      } else {
+        let jsonData = response.json();
+        console.log(jsonData)
+      };
+    });
+          </code></pre>
+        </section>
+        <section class="section" id="experience">
+          <h2 class="section-title">Work Experience</h2>
+          <p class="p">Purrweb - QA Engineer, Since Dec '21</p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ol>
+            <li>
+              QA Engineer Practical Course by Vadim Ksendzov -
+              <a
+                href="http://ksendzov.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              ></a>
+            </li>
+            <li>
+              QA Engineer Video-course by Artsiom Rusau -
+              <a
+                href="http://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              ></a>
+            </li>
+          </ol>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul>
+            <li>Russian - Native</li>
+            <li>
+              English - B1 / Intermediate (<a
+                class="link"
+                href="https://www.efset.org/cert/uFXUtr"
+                target="_blank"
+                rel="noopener noreferrer"
+                >EF SET Certificate</a
+              >)
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer footer-container">
+      <a
+        class="footer-img"
+        href="https://rs.school/js/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://rs.school/images/rs_school_js.svg"
+          alt="rs school logo"
+          width="200"
+        />
+      </a>
+      <p class="footer-date">2022</p>
+      <a
+        class="footer-link link"
+        href="https://github.com/v-las"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg
+          height="32"
+          aria-hidden="true"
+          viewBox="0 0 16 16"
+          version="1.1"
+          width="32"
+          data-view-component="true"
+          class="octicon octicon-mark-github v-align-middle"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+          ></path>
+        </svg>
+        My GitHub</a
+      >
+    </footer>
+  </body>
+</html>
