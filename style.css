@@ -34,10 +34,10 @@ body {
 }
 
 .nav-list {
+  margin-right: 100px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
   list-style: none;
 }
 
